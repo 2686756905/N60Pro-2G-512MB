@@ -6,12 +6,8 @@ name: MTK-ALL
 
 #CI计划
 on:
-  #自动编译：当Auto-Clean运行完成后
-  workflow_run:
-    workflows: ["Auto-Clean"]
-    types:
-      - completed
-  #手动编译
+  # 移除所有自动触发（schedule 定时、workflow_run 依赖等）
+  # 只保留手动触发
   workflow_dispatch:
     inputs:
       PACKAGE:
