@@ -55,11 +55,16 @@ CONFIG_PACKAGE_kmod-tls=y
 # ==========================================
 # 5. 精准禁用不需要的默认插件 (双重保险)
 # ==========================================
+# Network Shares (Samba/Ksmbd)
 # CONFIG_PACKAGE_luci-app-samba4 is not set
 # CONFIG_PACKAGE_luci-app-ksmbd is not set
+# WOL Ultra
 # CONFIG_PACKAGE_luci-app-wolultra is not set
+# Gecoos AC
 # CONFIG_PACKAGE_luci-app-gecoosac is not set
 # CONFIG_PACKAGE_gecoosac is not set
+# HomeProxy
 # CONFIG_PACKAGE_luci-app-homeproxy is not set
+# NATMap
 # CONFIG_PACKAGE_natmapt is not set
 # CONFIG_PACKAGE_luci-app-natmapt is not set
